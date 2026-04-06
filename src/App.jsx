@@ -218,17 +218,17 @@ function App() {
               </div>
 
               {/* VIEW RESUME BUTTON */}
-              <div className="flex justify-center mb-24 md:mb-40">
-                <a 
-                  href="/assets/resume.pdf" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="px-10 py-5 md:px-12 md:py-6 bg-black text-white text-[10px] md:text-[12px] font-black uppercase tracking-[0.2em] md:tracking-[0.4em] hover:bg-blue-600 transition-all shadow-xl hover:shadow-2xl rounded-full"
-                >
-                  View_My_Resume
-                </a>
-              </div>
-              
+             {/* --- UPDATED VIEW RESUME BUTTON --- */}
+<div className="flex justify-center mb-40">
+  <a 
+    href="./assets/resume.pdf"  // <--- ADD THE DOT (.) BEFORE THE SLASH
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="px-12 py-6 bg-black text-white text-[12px] font-black uppercase tracking-[0.4em] hover:bg-blue-600 transition-all shadow-xl hover:shadow-2xl rounded-full"
+  >
+    View_My_Resume
+  </a>
+</div>
               <footer className="pt-10 md:pt-20 border-t border-black/5 flex flex-col md:flex-row justify-between items-center text-[8px] md:text-[10px] font-mono text-gray-400 uppercase tracking-[0.2em] md:tracking-[0.5em] gap-4 md:gap-0">
                 <p>Disha Devgirkar // SIT Nagpur // B.Tech CSE</p>
                 <p>© {new Date().getFullYear()} // Online</p>
